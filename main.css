@@ -10,7 +10,7 @@
 ------------------------------------------*/
 
 body {
-  color: #212121;
+  color: #0B486B;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -32,14 +32,14 @@ p{
 }
 
 a {
-  color: #ff4081;
+  color: #212121;
   transition: 0.2s ease-in-out;
 }
 
 a:active,
 a:hover,
 a:focus {
-  color: #212121;
+  color: #79BD9A;
 }
 
 /*------------------------------------------
@@ -47,8 +47,8 @@ a:focus {
 ------------------------------------------*/
 
 .hero {
-  background-color: #21ABC7;
-  color: #fff;
+  background-color: #0B486B;
+  color: #A8DBA8;
   margin-bottom: 40px;
   padding: 20px 0;
   text-align: center;
@@ -75,7 +75,7 @@ a:focus {
 }
 
 .juice-link {
-  color: #3f51b5;
+  color: #3B8686;
   display: block;
   font-size: 24px;
   margin-bottom: 10px;

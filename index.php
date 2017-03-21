@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Front-end juice</title>
+    <title>Sue's Juices!</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet" />
@@ -63,9 +63,6 @@
           </ol>
         </div>
     </main>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
