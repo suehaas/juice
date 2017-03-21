@@ -54,7 +54,6 @@
             $result = mysqli_query($db, $query);
 
             while ($row = mysqli_fetch_array($result)) {
-             //echo $row['juicename'] . ' ' . $row['juicedescription'] . '<br />';
              echo '<li class="juice-item"><a class="juice-link" href="#">' . $row['juicename'] . '</a></li>';
             }
 
