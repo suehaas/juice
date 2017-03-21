@@ -46,11 +46,6 @@
                   <a class="js-like" href="#">Like this juice!</a>
                 </li>
               </ul>
-            </li>
-            <li class="juice-item">
-              <a class="juice-link" href="#">Apple Beet Carrot</a>
-            </li>
-
 
             <?php
             $query = "SELECT * FROM juice";
@@ -59,17 +54,13 @@
             $result = mysqli_query($db, $query);
 
             while ($row = mysqli_fetch_array($result)) {
-             echo $row['juicename'] . ' ' . $row['juicedescription'] . '<br />';
+             //echo $row['juicename'] . ' ' . $row['juicedescription'] . '<br />';
+             echo '<li class="juice-item"><a class="juice-link" href="#">' . $row['juicename'] . '</a></li>';
             }
 
             mysqli_close($db);
             ?>
 
-
-
-<!--            <li class="juice-item">
-              <a class="juice-link" href="#">Cukeberry</a>
-            </li> -->
           </ol>
         </div>
     </main>
