@@ -16,7 +16,7 @@
   <body>
     <header class="hero">
       <div class="container">
-        <p class="logo">Juice List</p>
+        <p class="logo">Sue's Juices!</p>
       </div>
     </header>
     <main class="content">
@@ -32,7 +32,7 @@
         </header>
 
         <ol class="juice">
-            <li class="juice-item">
+            <!--<li class="juice-item">
               <a class="juice-link" href="#">Cucumber Lemonade</a>
               <ul class="juice-meta">
                 <li class="juice-meta-item">
@@ -45,7 +45,7 @@
                 <li class="juice-meta-item">
                   <a class="js-like" href="#">Like this juice!</a>
                 </li>
-              </ul>
+              </ul> -->
 
             <?php
             $query = "SELECT * FROM juice";
