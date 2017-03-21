@@ -1,0 +1,155 @@
+/*******************************************
+*
+*
+*   Front end juicecast Stylesheet
+*
+********************************************
+
+/*------------------------------------------
+*   Base
+------------------------------------------*/
+
+body {
+  color: #212121;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+p{
+
+}
+
+a {
+  color: #ff4081;
+  transition: 0.2s ease-in-out;
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: #212121;
+}
+
+/*------------------------------------------
+*   Hero
+------------------------------------------*/
+
+.hero {
+  background-color: #21ABC7;
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*------------------------------------------
+*   Logo
+------------------------------------------*/
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;;
+}
+
+/*------------------------------------------
+*   juice
+------------------------------------------*/
+
+.juice-item {
+  border-bottom: 1px solid #b6b6b6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.juice-link {
+  color: #3f51b5;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.juice-meta-item {
+  display: inline;
+  margin-right: 15px;
+}
+
+/*------------------------------------------
+*   container
+------------------------------------------*/
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/*------------------------------------------
+*   states
+------------------------------------------*/
+
+.is-liked {
+  animation: flash 2s;
+}
+
+.is-visible {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*------------------------------------------
+*   form
+------------------------------------------*/
+.form {
+  height: 0;
+  margin-bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form.is-visible {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*------------------------------------------
+*   animation
+------------------------------------------*/
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 0;
+  }
+  25%, 75% {
+      opacity: 1;
+  }
+}
