@@ -16,15 +16,15 @@
   <body>
     <header class="hero">
       <div class="container">
-        <p class="logo">Sue's Juices!</p>
+        <p class="logo">Sue's Juices</p>
       </div>
     </header>
     <main class="content">
       <div class="container">
 
         <header class="subheader">
-          <h1>Quick and Easy Juices</h1>
-          <p>All your favorite juices! <a class="js-add-link" href="#"> Add a juice now!</a></p>
+          <h1>Welcome!</h1>
+          <p>Find Your Favorites Here, or <a class="js-add-link" href="#"> Add a New Juice Now!</a></p>
             <form class="form js-form">
               <label class="form-label" for="form-link-input">Add a juice:</label>
               <input class="form-input" type="text" id="form-link-input" />
