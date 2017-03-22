@@ -1,6 +1,12 @@
 <?php
- $db = mysqli_connect('localhost','root','22t!nk3r2','juice')
+$db = mysqli_connect('localhost','root','22t!nk3r2','juice')
  or die('Error connecting to MySQL server.');
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  echo $_POST['juicename'];
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -25,9 +31,10 @@
         <header class="subheader">
           <h1>Welcome!</h1>
           <p>Find Your Favorites Here, or <a class="js-add-link" href="#"> Add a New Juice Now!</a></p>
-            <form class="form js-form">
+            <form class="form js-form" action="index.php" method="post">
               <label class="form-label" for="form-link-input">Add a juice:</label>
-              <input class="form-input" type="text" id="form-link-input" />
+              <input class="form-input" type="text" id="form-link-input" name="juicename" />
+              <input type="submit" value="submit">
             </form>
         </header>
 
